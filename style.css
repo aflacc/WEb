@@ -1,26 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
 .darkmode {
   background-color: rgb(31, 31, 31);
-  transition-duration: 1s;
+  transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(1, 0, 0, 1);
   color: white;
   font-family: 'Nunito';
 }
 body {
   background-color: white;
-  transition-duration: 1s;
+  transition-duration: 0.4s;
   color: black;
   transition-timing-function: cubic-bezier(1, 0, 0, 1);
   font-family: 'Nunito';
 }
 
 div {
-  background-color: rgba(202, 202, 202, 0.205);
+  background-color: rgba(202, 202, 202, 0.192);
   padding: 10px;
+  font-size: 20px;
 }
 
 button {
   background-color: rgba(73, 73, 73, 0.521);
   border: 0px;
+  height: 50px;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  font-family: 'Nunito';
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+button:hover {
+  background-color: rgba(87, 87, 87, 0.521);
+  transition-duration: 0.2s;
+  font-size: 32px;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+button.theme {
+  left: 100%;
+  width: 100px;
+  top: 0%;
+  float: right;
+  position: absolute;
 }
